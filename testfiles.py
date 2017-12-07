@@ -4,6 +4,9 @@ Created on Mon Oct  9 10:54:45 2017
 
 @author: ibrahim
 """
+
+# this added to the script now
+
 from pymongo import MongoClient
 import heapq
 import matplotlib.pyplot as plt
