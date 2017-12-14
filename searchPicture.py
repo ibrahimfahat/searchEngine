@@ -25,7 +25,7 @@ for k in range(1,len(cluster_picture_edge)):
 similar_picture=sorted(similar_picture,key=lambda x:x["result"])
 print(similar_picture)
 
-path='C:/Users/Bolbol/Desktop/moteur/thumbnails/thumbnails/'
+path='/home/ibrahim/Desktop/projet_browser/thumbnails/thumbnails/'
 for j in range(0,len(similar_picture)):
     if (j == 20): break
     second = similar_picture[j]["index"] % 10000
