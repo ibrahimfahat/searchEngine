@@ -7,7 +7,7 @@ client=MongoClient('mongodb://localhost:27017/Search_pic')
 db=client.DB_Search
 collection=db.collection_edge
 
-diractory='C:/Users/Bolbol/Desktop/moteur/'
+diractory='/home/ibrahim/Desktop/projet_browser'
 dir_edge = 'features_edgehistogram'
 dir_text = 'features_homogeneoustexture'
 table_edge=[]
